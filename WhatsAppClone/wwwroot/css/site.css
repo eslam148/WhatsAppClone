@@ -1,0 +1,19 @@
+.ChatTriangel {
+    width: 2px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    border-radius: 0 400px 400px 400px;
+}
+
+    .ChatTriangel:after {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: -20px;
+        right: auto;
+        top: 38px;
+        bottom: auto;
+        border: 12px solid;
+        border-color: lightyellow lightyellow transparent transparent;
+    }
